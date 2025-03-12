@@ -6,9 +6,9 @@ fun main() {
     var guessescount = 5
     var guess = 0
     var attempts = 0
-
+    println("You only have 5 Guess!!!")
     fun guessNumber() {
-        println("Guess a number between 1 and 100!! You only have 5 Guess")
+        println("Guess a number between 1 and 100")
         print("Number: ")
         guess = readln().toInt()
         if (guess == random) {
